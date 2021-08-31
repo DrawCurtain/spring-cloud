@@ -1,4 +1,4 @@
-package com.xuegao.config;
+package com.xuegao.springcloud.common.config;
 
 import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
 import org.slf4j.Logger;

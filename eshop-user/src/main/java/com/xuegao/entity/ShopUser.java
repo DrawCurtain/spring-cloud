@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -81,9 +83,10 @@ public class ShopUser implements Serializable {
     /**
      * 状态
      */
+    @TableLogic
     private Integer status;
 
-    public Integer getUserId() {
+    public Integer getUserId () {
         return userId;
     }
 

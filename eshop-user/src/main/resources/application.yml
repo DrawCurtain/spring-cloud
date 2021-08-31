@@ -23,6 +23,16 @@ xxl:
       port: 9999
       logpath: /data/applogs/xxl-job/jobhandler
       logretentiondays: 30
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      table-underline: true
+      db-type: mysql
+      logic-delete-value: 0 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 1 # 逻辑未删除值(默认为 0)
+  mapper-locations: classpath:/mapper/*.xml
 
 
 
