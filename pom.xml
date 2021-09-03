@@ -14,6 +14,7 @@
         <module>eshop-order</module>
         <module>eshop-stock</module>
         <module>eshop-user</module>
+        <module>leet-code</module>
     </modules>
 
     <!--设置为pom，管理依赖-->
